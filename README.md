@@ -10,7 +10,7 @@ $ mkdir test_python_connection_pool
 cd test_python_connection_pool 
 $ dolt init --fun
 Successfully initialized dolt data repository.
- test (pk int, c1 int, primary key(pk))"
+$ dolt sql -q "create table test (pk int, c1 int, primary key(pk))"
 $ dolt sql-server
 ```
 
